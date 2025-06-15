@@ -31,6 +31,7 @@ class StoreDetailPage extends StatelessWidget {
           final imageUrl = storeData['imageUrl'] ?? '';
           final address = storeData['address'] ?? 'Alamat tidak tersedia';
 
+
           return SingleChildScrollView(
             padding: const EdgeInsets.all(16),
             child: Column(
